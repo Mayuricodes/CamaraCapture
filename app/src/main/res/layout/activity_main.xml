@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Click here to take picture"
+        android:background="#00BCD4"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="361dp"
+        android:layout_height="506dp"
+        android:layout_below="@id/button"
+        android:layout_marginTop="35dp"
+        android:scaleType="centerCrop"
+        />
+
+
+</RelativeLayout>
